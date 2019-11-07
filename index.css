@@ -1,0 +1,113 @@
+body {
+    background: #e2e5e7cc;;
+  }
+  
+  .signup-form {
+    font-family: sans-serif;
+    widows: 100px;
+    margin:30px auto;
+    background:linear-gradient(to right, #839c549a 0%, #99b45a 50%, #606d32 99%);
+    border-radius: 10px;
+  }
+
+  /* Header */
+ 
+  .form-header  {
+    background-color: rgb(76, 82, 109);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+ 
+  .form-header h1 {
+    font-size: 20px;
+    text-align:center;
+    color:rgba(240, 240, 243, 0.897);
+    padding:20px 0;
+    border-bottom:1px solid #dfe0dae1;
+  } 
+  
+ 
+  /* Body */
+
+ body {
+    background: url(backbackground.png);
+    background-size: cover;
+ }
+ .form-group{
+    margin-bottom:10px;
+  }
+  
+  .form-body .label-title {
+    color: rgb(76, 82, 109);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .form-body .form-input {
+      font-size: 17px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 34px; 
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #0a0a0a;
+      text-align: left;
+      border: 1px solid  rgb(76, 82, 109);
+      border-radius: 4px;
+      background: white;
+      outline: none;
+  }
+  
+  
+  .horizontal-group {
+    float: center;
+    widows: 25%;
+  }
+  
+  input[type="file"] {
+    outline: none;
+    cursor:pointer;
+    font-size: 17px;
+  }
+  
+  #range-label {
+    width:15%;
+    padding:5px;
+    background-color: #1BBA93;
+    color:white;
+    border-radius: 5px;
+    font-size: 17px;
+    position: relative;
+    top:-8px;
+  }
+  
+  ::-webkit-input-placeholder  {
+    color:#d9d9d9;
+  }
+
+ .btn {
+    margin-top:10px; 
+    display:inline-block;
+    padding:10px 20px;
+    background-color: rgb(1, 10, 8);
+    font-size:17px;
+    border:none;
+    border-radius:5px;
+    color:#bcf5e7;
+    cursor:pointer;
+ }
+ 
+ .btn:hover {
+   background-color: #010708;
+   color:white;
+ }
+ .prof{
+     width: 200px;
+     height: 300px;
+     border-radius: 30%;
+     overflow: hidden;
+    
+ }
+ .prof1{
+     text-align: center; 
+ }

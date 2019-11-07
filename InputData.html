@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <meta charset="utf-8">
+    <title>Register Form Start</title>
+    <link rel="stylesheet" href="InputData.css">
+</head>
+<body>
+    <form class="signup-form" action="/InputData" method="post">
+
+        <!-- header -->
+        <div class="form-header">
+          <h1>Input Data</h1>
+        </div>
+  
+        <!-- body -->
+        <div class="form-body">
+
+            <!-- username -->
+            <div class="horizontal-group">
+              
+                    <label for="username" class="label-title">Username </label>
+                    <input type="text" id="username" class="form-input" placeholder="Username" required="required">
+                 
+                </div>
+
+            <!-- NPM -->
+            <div class="horizontal-group">
+              
+                    <label for="NPM" class="label-title">NPM </label>
+                    <input type="NPM" id="NPM" class="form-input" placeholder="NPM" required="required">  
+                    
+            <!-- jurusan -->
+          <div class="horizontal-group">
+            
+                <label class="label-title">Jurusan</label>
+                <select class="form-input" id="level" >
+                  <option value="B">Sistem Informasi</option>
+                  <option value="I">Informatika</option>
+                </select>
+            </div>
+
+            <!-- No Telephone -->
+            <div class="horizontal-group">
+              
+                    <label for="No Telephone" class="label-title">No Telephone </label>
+                    <input type="No Telephone" id="No Telephone" class="form-input" placeholder="" required="required">           
+            </div>
+  
+            <!-- Email -->
+            <div class="form-group">
+              <label for="choose-file" class="label-title">Email</label>
+              <textarea class="form-input" rows="3" cols="50" style="height:auto"></textarea>
+            </div>
+          </div>
+    
+          <!-- footer -->
+          <div class="form-footer">
+            <a href="index.html"><input class="btn" type="button" value="Input"></a>
+            <a href="Index.html"><input class="btn" type="button" value="Cancel"></a>
+            </a>
+          </div>
+      </div>
+        </form>
+    
+  </body>
+  </html>
